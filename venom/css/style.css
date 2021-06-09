@@ -1,4 +1,5 @@
 body {
+    background-color: #14131A;
     color: #fff;
     font-family: 'Roboto',
     sans-serif;
@@ -81,10 +82,16 @@ body {
     position: absolute;
     top: 0;
     right: 0;
-    
 }
-.blood {
-    background: url('../img/blood.png') no-repeat top right,
-    #14131A
-    url('../img/bg.jpg') no-repeat center center / 100%;
+.venom-blood {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
 }
+.hero-wrapper {
+    position: relative;
+    background: url('../img/bg.jpg') no-repeat center center / 100%;
+    z-index: -2;
+}
+
