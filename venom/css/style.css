@@ -7,6 +7,8 @@ body {
 .container {
     max-width: 1140px;
     margin: auto;
+    z-index: 3;
+    position: relative;
 }
 .header {
     display: flex;
@@ -82,16 +84,17 @@ body {
     position: absolute;
     top: 0;
     right: 0;
+    z-index: 2;
 }
 .venom-blood {
     position: absolute;
     top: 0;
     right: 0;
-    z-index: -1;
+    z-index: 1;
 }
 .hero-wrapper {
-    position: relative;
-    background: url('../img/bg.jpg') no-repeat center center / 100%;
-    z-index: -2;
+    background: url('../img/bg.jpg') no-repeat center center;
+    background-size: cover;
+    
 }
 

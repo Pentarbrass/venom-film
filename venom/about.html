@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/aboutStyle.css">
+    <title>О фильме - Venom 2</title>
+</head>
+
+<body>
+    <div class="hero-wrapper">
+        <div class="container">
+            <header class="header">
+                <a href="index.html" class="logo">
+                    <img width="46" height="71" src="img/logo.png" alt="Logo: Venom logo" class="logo-img">
+                </a>
+                <nav class="header-nav">
+                    <ul class="menu">
+                        <li class="menu-item"><a href="about.html" class="menu-link">о фильме</a></li>
+                        <li class="menu-item"><a href="#" class="menu-link">трейлер</a></li>
+                        <li class="menu-item"><a href="#" class="menu-link">актеры</a></li>
+                        <li class="menu-item"><a href="#" class="menu-link">премьера</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="content">
+                <div class="col">
+                    <h2 class="content-title">О фильме</h2>
+                    <p class="content-text">В настырном журналисте по-прежнему живет симбиот. Том Харди в образе
+                        обаятельного суперзлодея из комиксов Marvel.</p>
+                    <h3 class="content-subtitle">В главных ролях</h3>
+                    <ul class="content-list column-2">
+                        <li class="list-item">Том Харди</li>
+                        <li class="list-item">Мишель Уильямс</li>
+                        <li class="list-item">Вуди Харрельсон</li>
+                        <li class="list-item">Наоми Харрис</li>
+                        <li class="list-item">Стивен Грэм</li>
+                        <li class="list-item">Рейд Скотт</li>
+                        <li class="list-item">Эд Кейр</li>
+                        <li class="list-item">Шон Делани</li>
+                        <li class="list-item">Уилльям Барбо</li>
+                        <li class="list-item">Пегги Лу</li>
+                    </ul>
+                    <div class="trailer">
+                        <button class="play" id="play-video-btn">
+                            <img src="img/play.svg" alt="Icon: play" class="play-icon">
+                        </button>
+                        <iframe id="embed-video-frame" width="356" height="205"
+                            src="https://www.youtube.com/embed/Othd8W8o3t0?rel=0&showinfo=0"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <!-- /.trailer -->
+                </div>
+                <div class="col">
+                    <div class="poster-wrapper">
+                        <img src="img/poster.jpg" alt="Image: Poster" class="poster">
+                        <div class="creators">
+                            <h3 class="content-subtitle">Режиссер</h3>
+                            <ul class="creator-list">
+                                <li class="list-item">Энди Серкис</li>
+                            </ul>
+                            <h3 class="content-subtitle">Сценарий</h3>
+                            <ul class="creator-list">
+                                <li class="list-item">Келли Марсел</li>
+                                <li class="list-item">Том Харди</li>
+                            </ul>
+                            <h3 class="content-subtitle">Продюсеры</h3>
+                            <ul class="creator-list">
+                                <li class="list-item">Ави Арад</li>
+                                <li class="list-item">Том Харди</li>
+                                <li class="list-item">Келли Марсел</li>
+                            </ul>
+                        </div>
+                        <!-- /.poster-wrapper -->
+                    </div>
+                    <!-- /.creators -->
+                </div>
+            </div>
+            <!-- /.contant -->
+        </div>
+    </div>
+
+    <script src="src/jquery-3.6.0.min.js"></script>
+    <script src="src/script.js"></script>
+</body>
+
+</html>
