@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/aboutStyle.css">
     <title>О фильме - Venom 2</title>
@@ -20,9 +21,18 @@
                     <img width="46" height="71" src="img/logo.png" alt="Logo: Venom logo" class="logo-img">
                 </a>
                 <nav class="header-nav">
+                    <button class="menu-btn">
+                        <span class="menu-btn-text">меню</span>
+                        <img src="img/menu-btn.svg" alt="icon: Menu button" class="menu-btn-img">
+                    </button>
+                    <a href="#" class="close-btn">
+                        <span class="close-text">закрыть</span>
+                        <img src="img/close-line.svg" alt="Icon: Close" class="close-img">
+                    </a>
                     <ul class="menu">
                         <li class="menu-item"><a href="about.html" class="menu-link">о фильме</a></li>
-                        <li class="menu-item"><a href="#" class="menu-link">трейлер</a></li>
+                        <li class="menu-item"><a data-fancybox href="https://www.youtube.com/watch?v=Othd8W8o3t0&t=1s"
+                                class="menu-link">трейлер</a></li>
                         <li class="menu-item"><a href="#" class="menu-link">актеры</a></li>
                         <li class="menu-item"><a href="#" class="menu-link">премьера</a></li>
                     </ul>
@@ -87,8 +97,9 @@
         </div>
     </div>
 
-    <script src="src/jquery-3.6.0.min.js"></script>
-    <script src="src/script.js"></script>
+    <script src="script/jquery-3.6.0.min.js"></script>
+    <script src="script/jquery.fancybox.min.js"></script>
+    <script src="script/script.js"></script>
 </body>
 
 </html>
